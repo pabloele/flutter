@@ -1,4 +1,11 @@
-void main() {}
+void main() {
+  final flipper = Dolphin();
+  flipper.swim();
+
+  final batman = Bat();
+  batman.walk();
+  batman.fly();
+}
 
 abstract class Animal {}
 
